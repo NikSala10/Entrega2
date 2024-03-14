@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="informacion">
+        <header>
+            <nav class="navigation"> 
+                <div class="icons">
+                    <div class="icon-service">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                            <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+                        </svg>
+                    </div>
+                    <div class="logo">
+                        <img src="./logo_Mesa de trabajo 1_Mesa de trabajo 1_Mesa de trabajo 1.png"alt="logo">
+                    </div> 
+                    <div class="icon-user">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                        </svg>
+                        <svg id="icono-carro" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                        </svg> 
+                    </div>   
+                </div> 
+                <div class="busqueda">  
+                    <div class="menu">
+                        <ul>
+                            <li class="category"><a href="#">Category</a>
+                                <ul class="submenu"> 
+                                    <li><a href="#">Necklaces</a></li>
+                                    <li id="rings"><a href="#">Rings</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Offers</a></li>
+                            <li><a href="#">Films</a></li>
+                            <li><a href="#">Series</a></li>
+                        </ul>
+                    </div> 
+                    <div class="barra_busqueda">
+                        <input type="text" placeholder="  Search in Charmeyn">
+                        <svg id="search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                    </div>
+                </div>  
+            </nav>
+        </header>
+        <section class="container">
+            <div class="slider-wrapperr">
+                <div class="slider">
+                    <img id="slide-1" src="./Imagen1.jpg" alt="">
+                    <img id="slide-2" src="./imagen2.jpg" alt="">
+                    <img id="slide-3" src="./imagen3.jpg" alt="">
+                    <img id="slide-4" src="./imagen4.jpg" alt="">
+                </div>
+                <div class="button1">
+                    <button><span></span>Buy Now</button> 
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </div>           
+        </section>
+        <div>
+            <hr class="lineahorizontal">
+            <p id="parrafo1">Welcome to Charmeyn, where every piece of jewelry tells a story that transcends time and the screen.
+                Inspired by cinematic beauty, we capture the essence of fantasy in every piece we offer. We fuse 
+               exquisite craftsmanship with the allure of cinema, proud to present you with jewelry that embellishes 
+               your life and tells your unique story. From subtly elegant pieces to bold statements, each piece of jewelry
+                reflects your distinctive style in our universe of charm and sophistication - discover the power of jewelry
+                that goes beyond the ordinary at Charmeyn! </p>
+            <hr id="linea">
+        </div>
+        <section class="Productos"  id="seccion-productos">
+            <div class="Subproduct-1" >
+                <div class="cuadro1">
+                    <img id="product1" src="./Landinimg1.jpeg" alt="">
+                </div>
+                <div class="info-product">
+                    <p class="precio">$670,110.70</p>
+                    <p class="nombre-producto">Discover Rose</p>
+                    <hr class="linea-text">
+                </div>
+                <div class="boton-compra">
+                    <button class="button2">
+                        <span class="circle">
+                            <span class="icone arrow"></span>
+                        </span>
+                        <span class="text">See More</span>
+                    </button>   
+                </div>               
+            </div>
+            <div class="Subproduct-2" >
+                <div class="cuadro1">
+                    <img id="product2" src="./Landinimg2.jpeg" alt="">
+                </div>
+                <div class="info-product">
+                    <p class="precio">$670,110.70</p>
+                    <p class="nombre-producto">Discover Daphne</p>
+                    <hr class="linea-text">
+                </div>
+                <div class="boton-compra">
+                    <button class="button2">
+                        <span class="circle">
+                            <span class="icone arrow"></span>
+                        </span>
+                        <span class="text">See More</span>
+                    </button>   
+                </div> 
+            </div>
+        </section> 
+        <div class="about-us">
+            <hr class="lineahorizontal" id="line2">
+            <p id="title-us">About Us</p>
+            <p id="parrafo2">At Charmeyn, every piece tells a unique story that goes beyond the screen. Inspired by the beauty of cinema, we blend art and charm in our creations. From subtle elegance to boldness, our jewelry reflects your distinctive style. Discover the power of extraordinary jewelry at Charmeyn. </p>
+            <hr id="linea2">
+        </div>
+        <section class="container2">
+            <div class="card_container ">
+                <article id="people-1" class="card_article">
+                    <img class="card_ft" src="./People1.jpeg" alt="">
+                    <div class="card_data">
+                        <span class="card_description">A highly skilled and detail-oriented computer engineer.</span>
+                        <h2 class="card_title">Mads Mikkelsen</h2>
+                        <a href="#" class="card_button">Read More</a>
+                    </div>
+                </article>
+                <article id="people-2" class="card_article">
+                    <img class="card_ft" src="./People 2 (2).jpeg" alt="">
+                    <div class="card_data">
+                        <span class="card_description">A jewelry designer with a meticulous eye for detail and a passion for aesthetics.</span>
+                        <h2 class="card_title">Florence Pugh</h2>
+                        <a href="#" class="card_button">Read More</a>
+                    </div>
+                </article>
+                
+            </div>
+
+        </section>
+        <section class="support">
+            <div class="shopping">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
+                    <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                </svg>
+                <p class="titleshop">Free Shopping</p>
+                <p class="description_shop">Indulge in a selection of products without any cost.</p>
+            </div>
+            <div class="target">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right" viewBox="0 0 16 16">
+                    <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+                </svg>
+                <p class="titleshop">Online Support</p>
+                <p class="description_shop">Quick and convenient assistance for troubleshooting and answering questions.</p>
+            </div>
+            <div class="card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card-2-front" viewBox="0 0 16 16">
+                    <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/>
+                    <path d="M2 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5"/>
+                </svg>
+                <p class="titleshop">Flexible Payment</p>
+                <p class="description_shop">Adaptable options for hassle-free transactions.</p>
+            </div>
+            <div class="car">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                </svg>
+                <p class="titleshop">Return</p>
+                <p class="description_shop">Returning products to the store for a refund or exchange.</p>
+            </div>
+        </section>
+        <hr id="linea3">
+        <section class="events">
+            <p id="newsletter">Subscribe to our Newsletter</p>
+            <p id="trends-news">¡Be the first to receive the latest news on trends, promotions, and much more!</p>
+            <form>
+                <input type="email" placeholder="Enter your e-mail">
+            </form>
+        </section>
+    </div>  
+</body>
+</html>
