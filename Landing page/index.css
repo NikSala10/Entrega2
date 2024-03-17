@@ -640,6 +640,89 @@
     color: #660D11;
     margin-top: 20px;
   }
+  footer  {
+    display: flex;
+    background-color: #FBFAFA;
+    height: 500px;
+  }
+  .icon-redsocial svg  {
+    color: #660D11;
+    width: 25px;
+    height: 25px;
+  }
+  .title-contact  {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+  }
+  .subtitle  {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  
+  }
+  .sub-contact  {
+    display: flex;
+    margin-top: 20px;
+  }
+  .info  {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .contact-1 svg  {
+    color: #CCCCCC;
+    padding-right: 10px;
+    margin-top: 3px;
+    width: 25px;
+    height: 25px;
+  }
+  .contact-1  {
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-right: 120px;
+   
+  }
+  
+  .email svg{
+    color: #660D11;
+  }
+  .emails  {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #660D11;
+    margin-top: 40px;
+  }
+  .parraf  {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .contact-2 {
+    margin-top: 50px;
+    margin-right: 120px;
+  }
+  .contact-3 {
+    margin-top: 50px;
+    margin-right: 120px;
+  }
+  .contact-4 {
+    margin-top: 50px;
+  }
+  .icon-redsocial  {
+    margin-top: 80px;
+    margin-left: 35px;
+    margin-right: 200px;
+  }
+
 
   
 
